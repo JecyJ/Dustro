@@ -9,16 +9,10 @@ const Hero = () => {
     console.log('Button clicked')
   }
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full h-screen space-y-20 md:space-y-28">
       <div>
-        <div>
-          <Image className="absolute" src='/assets/images/office-building.png' alt='/' layout='fill' objectFit='cover' priority />
-          {/* <div className="absolute top-14 left-20 md:flex hidden max-w-[400px] mx-auto">
-            <h1 className="border bg-[#00215B] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">147 <span className="text-xs w-">Completed Projects</span></h1>
-            <h1 className="border bg-[#D2153D] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">25+ <span className="text-xs w-">Years of Experience</span></h1>
-          </div> */}
-        </div>        
-        <div className="relative top-9 md:top-48 bg-cover max-w-[400px] md:max-w-[1100px] m-auto">    
+        <Image className="z-[-2]" src='/assets/images/office-building.png' alt='/' layout='fill' objectFit='cover' priority />      
+        <div className="pt-10 md:pt-44 bg-cover max-w-[400px] md:max-w-[1100px] m-auto">    
           <div className="space-y-3">
             <h1 className="text-[#00215B] text-4xl md:text-6xl font-semibold">Construction solution <br /> for everyone</h1>
             <p className="text-[#00215B]">In id enim odio. Nunc aliquet diam tortor, at venenatis urna sagittis non. Suspendisse sodales nulla <br className="hidden md:block" /> sit amet sem condimentum, ac euismod nibh elementum. Praesent eu urna at sem sodales venenatis. <br className="hidden md:block" /> Mauris efficitur dapibus enim in posuere</p>
@@ -26,7 +20,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="relative top-14 md:top-72 flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 max-w-[400px] md:max-w-[1000px] mx-auto">
+      <div className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 max-w-[400px] md:max-w-[1000px] mx-auto">
         <div className="flex md:h-32">
           <h1 className="border bg-[#00215B] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">147 <span className="text-xs w-">Completed Projects</span></h1>
           <h1 className="border bg-[#D2153D] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">25+ <span className="text-xs w-">Years of Experience</span></h1> 

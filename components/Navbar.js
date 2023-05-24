@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
   return (
-    <section className='sticky w-full'>
+    <section className='sticky z-[2] shadow-2xl w-full'>
         <div className='max-w-[400px] md:max-w-[1100px] m-auto md:space-y-2 py-3'>
 
             {/* desktop view */}
@@ -69,7 +69,7 @@ const Navbar = () => {
                         <h1>Contacts</h1>
                     </Link>
                 </div>
-                <div onClick={handleNav} className='md:hidden'>
+                <div onClick={handleNav} className='md:hidden flex items-center'>
                     <HiOutlineMenuAlt1 size={24} />
                 </div>         
             </div>
