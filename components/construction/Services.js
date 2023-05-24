@@ -4,8 +4,8 @@ import {HiOutlineArrowNarrowRight} from 'react-icons/hi'
 
 const Services = () => {
   return (
-    <section className="w-full h-auto my-10">
-        <div className="grid grid-rows-2 grid-cols-3 md:grid-cols-5 w-full h-auto">
+    <section className="w-full my-10">
+        <div className="grid grid-rows-2 grid-cols-3 md:grid-rows-1 md:grid-cols-5 w-full">
             <Image className="col-span-3 md:col-span-2 h-full md:h-full w-full md:w-full" src='/assets/images/steel-bars.png' alt='/' width={500} height={500} />
             <div className="relative w-full h-full md:h-full text-white">
                 <Image className="absolute" src='/assets/images/landscape-building-crane.png' alt='/'  fill />

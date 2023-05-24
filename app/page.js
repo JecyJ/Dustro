@@ -1,5 +1,6 @@
 import Aboutus from "@components/construction/Aboutus";
 import Hero from "@components/construction/Hero";
+import Portfolio from "@components/construction/Portfolio";
 import Services from "@components/construction/Services";
 
 
@@ -10,6 +11,7 @@ const Construction = () => {
       <Hero />
       <Aboutus />
       <Services />
+      <Portfolio />
     </section>
   )
 }
