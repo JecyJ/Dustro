@@ -1,5 +1,7 @@
 import Aboutus from "@components/construction/Aboutus";
 import Hero from "@components/construction/Hero";
+import Services from "@components/construction/Services";
+
 
 
 const Construction = () => {
@@ -7,6 +9,7 @@ const Construction = () => {
     <section>
       <Hero />
       <Aboutus />
+      <Services />
     </section>
   )
 }
