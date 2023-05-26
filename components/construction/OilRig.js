@@ -1,14 +1,11 @@
 'use client'
 
-import React, { useRef } from 'react'
+import Image from 'next/image'
 
 const OilRig = () => {
-    const videoRef = useRef()
   return (
     <section className='relative w-full h-auto my-20'>
-        <video ref={videoRef} autoPlay muted loop>
-          <source src="https://www.youtube.com/watch?v=iHzPfFu6IdE" type="video/mp4" />
-        </video>
+        <Image src='/assets/images/rig-video.jpg' alt='/' width={1500} height={1100} />
     </section>
   )
 }

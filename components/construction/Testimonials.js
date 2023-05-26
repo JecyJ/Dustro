@@ -29,7 +29,7 @@ const Testimonials = () => {
 
 
   return (
-    <section className='w-full h-auto my-28 md:my-96'>
+    <section className='w-full h-auto my-28 md:mt-96'>
         <div className='max-w-[450px] md:max-w-[1000px] mx-auto text-center space-y-5 md:space-y-7'>
           <h2 className='text-[#D2153D]'>TESTIMONIALS</h2>
           <h1 className='text-3xl md:text-5xl font-semibold'>Our Clients Say</h1>
