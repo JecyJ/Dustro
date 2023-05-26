@@ -4,7 +4,6 @@ import Hero from "@components/construction/Hero";
 import OilRig from "@components/construction/OilRig";
 import Portfolio from "@components/construction/Portfolio";
 import Services from "@components/construction/Services";
-import TestimonialSlider from "@components/construction/TestimonialSlider";
 import Testimonials from "@components/construction/Testimonials";
 
 
@@ -18,7 +17,6 @@ const Construction = () => {
       <Portfolio />
       <Contact />
       <Testimonials />
-      {/* <TestimonialSlider /> */}
       <OilRig />    
     </section>
   )
