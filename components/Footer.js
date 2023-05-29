@@ -16,7 +16,7 @@ const Footer = () => {
 
 
   return (
-    <section className='w-full h-auto my-20'>
+    <section className='w-full h-auto mt-20'>
         <div className='flex md:flex-row flex-col w-full'>
             <div className='text-white text-center p-10 space-y-4 bg-[#D2153D]'>
                 <Link href='/'>

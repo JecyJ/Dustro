@@ -13,19 +13,19 @@ const Contact = () => {
                 </div>
                 <div className='flex flex-col md:flex-row space-y-2 md:space-x-4'>
                     <div className='flex space-x-2'>
-                        <Image src='/assets/images/iconcall.svg' alt='/' width={90} height={90} />
+                        <Image src='/assets/images/iconcall.svg' alt='/' width={37} height={90} />
                         <div className='text-[#00215B] w-full'>
                             <h2 className='text-xs md:text-base'>COMPANY PHONES</h2>
-                            <p className='text-sm md:text-lg font-semibold'>+ 1 234 5678 098</p>
-                            <p className='text-sm md:text-lg font-semibold'>+ 1 634 7638 654</p>
+                            <p className='text-xs md:text-lg font-semibold'>+ 1 234 5678 098</p>
+                            <p className='text-xs md:text-lg font-semibold'>+ 1 634 7638 654</p>
                         </div>
                     </div>
                     <div className='flex space-x-2'>
-                        <Image src='/assets/images/iconemail.svg' alt='/' width={80} height={80} />
+                        <Image src='/assets/images/iconemail.svg' alt='/' width={37} height={80} />
                         <div className='text-[#00215B]'>
                             <h2 className='text-xs md:text-base'>DUSTRO EMAILS</h2>
-                            <p className='text-sm md:text-lg font-semibold'>dustro@gmail.com</p>
-                            <p className='text-sm md:text-lg font-semibold'>dustro.info@gmail.com</p>
+                            <p className='text-xs md:text-lg font-semibold'>dustro@gmail.com</p>
+                            <p className='text-xs md:text-lg font-semibold'>dustro.info@gmail.com</p>
                         </div>
                     </div>
                 </div>
