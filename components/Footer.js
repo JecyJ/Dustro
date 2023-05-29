@@ -46,7 +46,7 @@ const Footer = () => {
                 <div className=''>
                     <h1 className='text-lg md:text-xl'>Quick Links</h1>
                     <ul className='text-xs md:text-lg'>
-                        <Link href='/company'>
+                        <Link href='/aboutus'>
                             <li>About Company</li>
                         </Link>
                         <Link href='/services'>

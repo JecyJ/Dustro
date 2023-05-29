@@ -1,8 +1,13 @@
+import Hero from "@components/about-us/Hero";
+import About from "@components/about-us/About";
 
 
 const Aboutus = () => {
   return (
-    <div>Aboutus</div>
+    <section>
+      <Hero />
+      <About />
+    </section>
   )
 }
 
