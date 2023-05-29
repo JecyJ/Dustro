@@ -42,10 +42,10 @@ const Footer = () => {
                 </div>
                 <p>Fusce eu magna quis velit efficitur rhoncus. Vivamus vehicula, neque a velit</p>
             </div>
-            <div className='flex items-center justify-center bg-[#00215B] text-white w-full space-y-5 md:space-x-8'>
+            <div className='flex items-center justify-center bg-[#00215B] text-white w-full space-x-3 md:space-x-8 py-10'>
                 <div className=''>
-                    <h1 className='text-lg'>Quick Links</h1>
-                    <ul className='text-xs'>
+                    <h1 className='text-lg md:text-xl'>Quick Links</h1>
+                    <ul className='text-xs md:text-lg'>
                         <Link href='/company'>
                             <li>About Company</li>
                         </Link>
@@ -65,8 +65,8 @@ const Footer = () => {
                 </div>
 
                 <div className=''>
-                    <h1 className='text-lg'>Clinets Support</h1>
-                    <ul className='text-xs'>
+                    <h1 className='text-lg md:text-xl'>Clients Support</h1>
+                    <ul className='text-xs md:text-lg'>
                         <Link href='/career'>
                             <li>careers</li>
                         </Link>
@@ -85,19 +85,19 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div>
-                    <h1 className='text-lg'>Our News</h1>
+                <div className=''>
+                    <h1 className='text-lg md:text-xl'>Our News</h1>
                     <ul>
                         <li>
-                            <h3 className='text-sm'>Agile Construction <br /> Management Building</h3>
-                            <div className='flex space-x-4 text-xs'>
+                            <h3 className='text-xs md:text-base leading-none md:leading-normal'>Agile Construction <br /> Management Building</h3>
+                            <div className='flex space-x-4 text-xs md:text-base'>
                                 <p>20 Nov 2020</p>
                                 <p>by merkulove</p>
                             </div>
                         </li> 
                         <li>
-                            <h3 className='text-sm'>Top Sass Construction <br /> Products Information</h3>
-                            <div className='flex space-x-4 text-xs'>
+                            <h3 className='text-xs md:text-base leading-none md:leading-normal'>Top Sass Construction <br /> Products Information</h3>
+                            <div className='flex space-x-4 text-xs md:text-base'>
                                 <p>29 Nov 2020</p>
                                 <p>by merkulove</p>
                             </div>
