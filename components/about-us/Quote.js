@@ -6,7 +6,7 @@ const Quote = () => {
   return (
     <section className="relative w-full h-auto md:h-screen my-20 md:my-0 md:mt-20">
         <Image className="absolute" src='/assets/images/london-bridge.png' alt="/" width={1500} height={1200} />
-        <div className="relative top-5 md:top-36 md:max-w-[800px] mx-auto text-center space-y-2">
+        <div className="relative top-2 md:top-36 md:max-w-[800px] mx-auto text-center space-y-2">
             <h2 className="text-white text-base md:text-lg">Get a Quote</h2>
             <h1 className="text-white text-2xl md:text-3xl font-semibold">Build Your Future Today</h1>
             <p className="text-white text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
