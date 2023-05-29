@@ -4,7 +4,7 @@ import Image from "next/image";
 const Information = () => {
   return (
     <section className="w-full h-auto my-16">
-        <div className="max-w-[400px] md:max-w-[1000px] mx-auto">
+        <div className="max-w-[400px] md:max-w-[1000px] mx-auto space-y-4">
             <Image src='/assets/images/map-2.png' alt="/" width={1500} height={1000} />
             <div className="flex justify-around">
                 <div className='border border-l-4 border-l-[#d2153d] text-[#00215B] bg-white shadow-2xl p-2 h-28 w-56 md:w-2/6 space-y-4'>
