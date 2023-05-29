@@ -53,11 +53,11 @@ const Navbar = () => {
                     <h1 className='text-[#00215B] text-3xl font-semibold'>Dustro</h1>
                 </Link>                
                 <div className='hidden md:flex items-center md:w-2/4 justify-between text-[#00215B]'>
-                    <Link href='/home'>
+                    <Link href='/'>
                         <h1>Home</h1>
                     </Link>
-                    <Link href='/services'>
-                        <h1>Services</h1>
+                    <Link href='/aboutus'>
+                        <h1>About Us</h1>
                     </Link>
                     <Link href='/pages'>
                         <h1>Pages</h1>
@@ -86,11 +86,11 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='text-slate-300 text-5xl mt-8 max-w-[400px] m-auto'>
-                    <Link href='/home'>
+                    <Link href='/'>
                         <h1 onClick={handleNav}>Home</h1>
                     </Link>
-                    <Link href='/services'>
-                        <h1 onClick={handleNav} className='my-7'>Services</h1>
+                    <Link href='/aboutus'>
+                        <h1 onClick={handleNav} className='my-7'>About Us</h1>
                     </Link>
                     <Link href='/pages'>
                         <h1 onClick={handleNav}>Pages</h1>
