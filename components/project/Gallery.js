@@ -11,7 +11,6 @@ const Gallery = () => {
             <Image className="w-full h-auto" src='/assets/images/bulldozer.png' width={500} height={500} />
             <Image className="w-full h-auto" src='/assets/images/workers.png' width={500} height={500} />
             <Image className="w-full h-auto" src='/assets/images/crane-groundview2.png' width={500} height={500} />
-
             <div className='relative w-full h-auto'>
                 <Image className="absolute w-full h-auto" src='/assets/images/streetview.png' width={500} height={500} />
                 <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#D2153D]/70" />
@@ -23,8 +22,6 @@ const Gallery = () => {
                     </Link>                        
                 </div>
             </div>
-
-
             <Image className="w-full h-auto" src='/assets/images/crane-groundview.png' width={500} height={500} />
             <Image className="w-full h-auto" src='/assets/images/constructionsite.png' width={500} height={500} />
             <Image className="w-full h-auto" src='/assets/images/crane-groundview3.png' width={500} height={500} />
