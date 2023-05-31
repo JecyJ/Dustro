@@ -59,8 +59,8 @@ const Navbar = () => {
                     <Link href='/aboutus'>
                         <h1>About Us</h1>
                     </Link>
-                    <Link href='/pages'>
-                        <h1>Pages</h1>
+                    <Link href='/projects'>
+                        <h1>Projects</h1>
                     </Link>
                     <Link href='/news'>
                         <h1>News</h1>
