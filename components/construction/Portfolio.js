@@ -18,7 +18,7 @@ const Portfolio = () => {
                     <div className='relative w-full h-full top-0 text-white space-y-5 p-3 md:p-10'>
                         <h2 className='text-xs'>COMMERCIAL</h2>
                         <h1 className='hidden md:block text-sm md:text-2xl pb-1 md:pb-10'>Benoit Architecture</h1>
-                        <Link href='/portfolio'>
+                        <Link href='/projects'>
                             <BsPlusSquare className='w-full mx-auto' size={30} />
                         </Link>
                         
