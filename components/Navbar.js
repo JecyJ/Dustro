@@ -7,7 +7,6 @@ import {HiOutlineMenuAlt1} from 'react-icons/hi'
 import {AiOutlineClose} from 'react-icons/ai'
 import Link from 'next/link'
 import { useState } from 'react'
-import {MdKeyboardArrowDown} from 'react-icons/md'
 
 const Navbar = () => {
     const [nav, setNav] = useState()
@@ -64,7 +63,7 @@ const Navbar = () => {
                         <h1>Projects</h1>
                     </Link>
                     <Link href='/services'>
-                        <h1 className='flex items-center'>Services<MdKeyboardArrowDown /></h1>
+                        <h1 className='flex items-center'>Services</h1>
                     </Link>
                     <Link href='/contacts'>
                         <h1>Contacts</h1>

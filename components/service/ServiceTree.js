@@ -1,5 +1,6 @@
 import Button2 from "@components/reusable files/Button2";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const ServiceTree = () => {
@@ -11,7 +12,11 @@ const ServiceTree = () => {
                 <div className="text-white bg-[#D2153D] p-3 md:p-9 space-y-3 md:space-y-10">
                     <h1 className="text-xl md:text-3xl font-semibold">Service One</h1>
                     <p className="text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <Button2>Learn More</Button2>
+                    <div>
+                        <Link href='/services'>
+                            <Button2>Learn More</Button2>
+                        </Link>
+                    </div>                    
                 </div>
             </div>
             <div className="grid gird-rows-2 md:grid-cols-2">
@@ -19,7 +24,11 @@ const ServiceTree = () => {
                 <div className="text-white bg-[#D2153D] p-3 md:p-9 space-y-3 md:space-y-10">
                     <h1 className="text-xl md:text-3xl font-semibold">Service Two</h1>
                     <p className="text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <Button2>Learn More</Button2>
+                    <div>
+                        <Link href='/services'>
+                            <Button2>Learn More</Button2>
+                        </Link>
+                    </div>
                 </div>
             </div>
             <div className="grid gird-rows-2 md:grid-cols-2">
@@ -27,7 +36,11 @@ const ServiceTree = () => {
                 <div className="text-white bg-[#D2153D] p-3 md:p-9 space-y-3 md:space-y-10">
                     <h1 className="text-xl md:text-3xl font-semibold">Service Three</h1>
                     <p className="text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <Button2>Learn More</Button2>
+                    <div>
+                        <Link href='/services'>
+                            <Button2>Learn More</Button2>
+                        </Link>
+                    </div>
                 </div>
             </div>
             <div className="grid gird-rows-2 md:grid-cols-2">
@@ -35,7 +48,11 @@ const ServiceTree = () => {
                 <div className="text-white bg-[#D2153D] p-3 md:p-9 space-y-3 md:space-y-10">
                     <h1 className="text-xl md:text-3xl font-semibold">Service Four</h1>
                     <p className="text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <Button2>Learn More</Button2>
+                    <div>
+                        <Link href='/services'>
+                            <Button2>Learn More</Button2>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>
