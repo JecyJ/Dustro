@@ -13,7 +13,7 @@ const ServiceTree = () => {
                     <h1 className="text-xl md:text-3xl font-semibold">Service One</h1>
                     <p className="text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     <div>
-                        <Link href='/services'>
+                        <Link href='/services/petroleum'>
                             <Button2>Learn More</Button2>
                         </Link>
                     </div>                    
@@ -25,7 +25,7 @@ const ServiceTree = () => {
                     <h1 className="text-xl md:text-3xl font-semibold">Service Two</h1>
                     <p className="text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     <div>
-                        <Link href='/services'>
+                        <Link href='/services/petroleum'>
                             <Button2>Learn More</Button2>
                         </Link>
                     </div>
@@ -37,7 +37,7 @@ const ServiceTree = () => {
                     <h1 className="text-xl md:text-3xl font-semibold">Service Three</h1>
                     <p className="text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     <div>
-                        <Link href='/services'>
+                        <Link href='/services/petroleum'>
                             <Button2>Learn More</Button2>
                         </Link>
                     </div>
@@ -49,7 +49,7 @@ const ServiceTree = () => {
                     <h1 className="text-xl md:text-3xl font-semibold">Service Four</h1>
                     <p className="text-xs md:text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     <div>
-                        <Link href='/services'>
+                        <Link href='/services/petroleum'>
                             <Button2>Learn More</Button2>
                         </Link>
                     </div>
