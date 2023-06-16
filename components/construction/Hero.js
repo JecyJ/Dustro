@@ -9,10 +9,10 @@ const Hero = () => {
     console.log('Button clicked')
   }
   return (
-    <section className="relative w-full h-screen space-y-5 lg:space-y-28 mb-52 md:mb-50">
+    <section className="relative w-full h-screen space-y-3 lg:space-y-20 mb-52 md:mb-50">
       <div>
         <Image className="absolute z-[-2] bg-cover" src='/assets/images/office-building.png' alt='/' layout="fill" priority />      
-        <div className="pt-10 md:pt-10 bg-cover max-w-[400px] md:max-w-[1100px] m-auto">    
+        <div className="pt-10 md:pt-4 bg-cover max-w-[400px] md:max-w-[1100px] m-auto">    
           <div className="space-y-3">
             <h1 className="text-[#00215B] text-4xl md:text-6xl font-semibold">Construction solution <br /> for everyone</h1>
             <p className="text-[#00215B]">In id enim odio. Nunc aliquet diam tortor, at venenatis urna sagittis non. Suspendisse sodales nulla <br className="hidden md:block" /> sit amet sem condimentum, ac euismod nibh elementum. Praesent eu urna at sem sodales venenatis. <br className="hidden md:block" /> Mauris efficitur dapibus enim in posuere</p>
