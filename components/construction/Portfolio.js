@@ -32,13 +32,3 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
-
-{/* <div className='relative w-full h-auto p-20'>
-                    
-                    <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00215B]/70" />
-                    <div className='relative top-0 text-white space-y-5'>
-                        <h2>COMMERCIAL</h2>
-                        <h1 className='text-xl md:text-2xl'>Benoit Architecture</h1>
-                        <BsPlusSquare className='' size={20} />
-                    </div>
-                </div> */}
