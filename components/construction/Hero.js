@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="border bg-[#00215B] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">147 <span className="text-xs w-">Completed Projects</span></h1>
           <h1 className="border bg-[#D2153D] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">25+ <span className="text-xs w-">Years of Experience</span></h1> 
         </div>
-        <div className="border border-t-4 border-t-[#00215B] bg-white py-4 px-6 space-y-2 md:space-y-6 md:w-2/6">
+        <div className="border border-t-4 border-t-[#00215B] bg-white py-4 px-6 space-y-2 md:space-y-6 md:w-2/3">
           <h1 className="text-[#00215B] text-lg lg:text-2xl">We Construct and Manage Places and Infrastructures</h1>
           <ul className="text-base">
             <li className="flex space-x-2">
