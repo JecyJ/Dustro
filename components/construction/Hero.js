@@ -9,9 +9,9 @@ const Hero = () => {
     console.log('Button clicked')
   }
   return (
-    <section className="relative w-full h-screen space-y-20 md:space-y-28 mb-52 md:mb-50">
+    <section className="relative w-full h-screen space-y-5 lg:space-y-28 mb-52 md:mb-50">
       <div>
-        <Image className="absolute z-[-2]" src='/assets/images/office-building.png' alt='/' width={1500} height={1500} />      
+        <Image className="absolute z-[-2] bg-cover" src='/assets/images/office-building.png' alt='/' layout="fill" priority />      
         <div className="pt-10 md:pt-10 bg-cover max-w-[400px] md:max-w-[1100px] m-auto">    
           <div className="space-y-3">
             <h1 className="text-[#00215B] text-4xl md:text-6xl font-semibold">Construction solution <br /> for everyone</h1>
@@ -25,25 +25,25 @@ const Hero = () => {
           <h1 className="border bg-[#00215B] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">147 <span className="text-xs w-">Completed Projects</span></h1>
           <h1 className="border bg-[#D2153D] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">25+ <span className="text-xs w-">Years of Experience</span></h1> 
         </div>
-        <div className="border border-t-4 border-t-[#00215B] bg-white py-4 px-6 space-y-2 md:space-y-6 md:w-2/5">
-          <h1 className="text-[#00215B] text-2xl">We Construct and Manage Places and Infrastructures</h1>
-          <ul>
+        <div className="border border-t-4 border-t-[#00215B] bg-white py-4 px-6 space-y-2 md:space-y-6 md:w-2/6">
+          <h1 className="text-[#00215B] text-lg lg:text-2xl">We Construct and Manage Places and Infrastructures</h1>
+          <ul className="text-base">
             <li className="flex space-x-2">
-              <Image src='/assets/images/hat.svg' alt='/' width={40} height={40} />
+              <Image src='/assets/images/hat.svg' alt='/' width={30} height={30} />
               <div>
                 <h2 className="font-semibold text-[#00215B]">General Contract</h2>
                 <p className="text-[#41444B]">Quisque condimentum erat ac orci blandit, in sollicitudin tellus vestibulum</p>
               </div>
             </li>
             <li className="flex space-x-2">
-              <Image src='/assets/images/steel-rule.svg' alt='/' width={40} height={40} />
+              <Image src='/assets/images/steel-rule.svg' alt='/' width={30} height={30} />
               <div>
                 <h2 className="font-semibold text-[#00215B]">Project Planning</h2>
                 <p className="text-[#41444B]">Nullam commodo tincidunt nisl, nec vehicula dui interdum nec</p>
               </div>
             </li>
             <li className="flex space-x-2">
-              <Image src='/assets/images/measuring-tool.svg' alt='/' width={40} height={40} />
+              <Image src='/assets/images/measuring-tool.svg' alt='/' width={30} height={30} />
               <div>
                 <h2 className="font-semibold text-[#00215B]">Refurbishment</h2>
                 <p className="text-[#41444B]">Sed vitae aliquet ipsum, ut ornare lectus. Proin sed sem risus. Sed nunc</p>
