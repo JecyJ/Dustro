@@ -17,7 +17,7 @@ const Gallery = () => {
                 <div className='relative w-full h-full top-7 md:top-20 text-white space-y-5 p-3 md:p-10'>
                     <h2 className='text-xs text-center p-5 md:p-0'>COMMERCIAL</h2>
                     <h1 className='hidden md:block text-sm md:text-center md:text-2xl pb-1 md:pb-10'>Benoit Architecture</h1>
-                    <Link href='/projects'>
+                    <Link href='/singleproject'>
                         <BsPlusSquare className='w-full mx-auto' size={30} />
                     </Link>                        
                 </div>
