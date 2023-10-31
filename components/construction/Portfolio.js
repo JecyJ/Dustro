@@ -4,7 +4,7 @@ import {BsPlusSquare} from 'react-icons/bs'
 
 const Portfolio = () => {
   return (
-    <section className='relative w-full h-auto my-10'>
+    <section className='relative w-full h-auto my-10 px-4'>
         <div className='max-w-[400px] md:max-w-[1000px] mx-auto text-center space-y-5 md:space-y-7'>
             <h2 className='text-[#D2153D]'>OUR WORKS</h2>
             <h1 className='text-3xl md:text-5xl font-semibold'>Our Special Projects</h1>

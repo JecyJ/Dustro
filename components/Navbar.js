@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <section className='sticky z-[2] shadow-2xl w-full'>
-        <div className='max-w-[400px] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1200px] m-auto md:space-y-2 py-3 px-3'>
+        <div className='max-w-[400px] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1200px] m-auto md:space-y-2 py-3 px-4'>
 
             {/* desktop view */}
             <div className='hidden md:flex flex-row  justify-between border-b border-slate-500 text-slate-500 pb-1'>

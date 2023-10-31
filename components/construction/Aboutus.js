@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Aboutus = () => {
   return (
     <section className='relative w-full h-auto md:mt-34'>
-        <div className='grid md:grid-cols-2 md:items-center max-w-[400px] md:max-w-[1100px] m-auto'>
+        <div className='grid md:grid-cols-2 md:items-center max-w-[400px] md:max-w-[1100px] m-auto px-4'>
             <Image className='md:order-2' src='/assets/images/building.png' alt='/' width={800} height={500} />
             <div className="space-y-5">
                 <h2 className='text-[#D2153D]'>ABOUT US</h2>              

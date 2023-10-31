@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='relative w-full h-auto my-10'>
+    <section className='relative w-full h-auto my-10 px-5'>
         <div className='relative w-full h-full'>
             <Image className='absolute' src='/assets/images/map.png' width={1500} height={800} />
             <div className='relative top-24 md:top-96 flex justify-center items-end md:max-w-[1000px] mx-auto space-x-4 pb-20'>
