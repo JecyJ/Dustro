@@ -14,7 +14,7 @@ const About = () => {
                   <h1 className='text-3xl md:text-5xl font-semibold'>We're providing the best customer service</h1>
               </div>
               <div className="space-y-5 md:space-y-10">
-                <p className='text-[#41444B] pb-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <p className='text-[#41444B] pb-3'>Dustro provides contruction designs at its peak and brign such designs to life. We also incoporate your designs and wishes to meet your needs.</p>
                 <h4 className="font-semibold text-xl md:2xl">John Doe, <span className="font-medium">Ceo</span></h4>
               </div>
               <div>

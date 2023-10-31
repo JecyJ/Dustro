@@ -13,7 +13,7 @@ const Request = () => {
 
 
   return (
-    <section className='relative w-full h-auto'>
+    <section className='relative w-full h-auto px-4'>
         <div className='grid md:grid-cols-2 max-w-[400px] md:max-w-[1000px] mx-auto space-y-5 md:space-y-0 md:space-x-8'>
             <form className="max-w-[400px] md:max-w-[1000px] mx-auto space-y-3">
                 <h2 className='text-sm md:text-base text-[#D2153D]'>APPOINTMENT</h2>
@@ -41,21 +41,21 @@ const Request = () => {
                     <Image src='/assets/images/hardhat.svg' alt='/' width={50} height={50} />
                     <div>
                         <h3 className='font-semibold'>High Quality Build</h3>
-                        <p className='text-sm md:text-base'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className='text-sm md:text-base'>Dustro is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
                 <div className='flex space-x-3'>
                     <Image src='/assets/images/paint-brush.svg' alt='/' width={50} height={50} />
                     <div>
                         <h3 className='font-semibold'>High Quality Build</h3>
-                        <p className='text-sm md:text-base'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className='text-sm md:text-base'>Dustro is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
                 <div className='flex space-x-3'>
                     <Image src='/assets/images/screw-drivers.svg' alt='/' width={50} height={50} />
                     <div>
                         <h3 className='font-semibold'>High Quality Build</h3>
-                        <p className='text-sm md:text-base'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className='text-sm md:text-base'>Dustro is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
             </div>
