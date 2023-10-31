@@ -17,8 +17,8 @@ const Footer = () => {
 
   return (
     <section className='w-full h-auto mt-20'>
-        <div className='flex md:flex-row flex-col w-full'>
-            <div className='text-white text-center p-10 space-y-4 bg-[#D2153D]'>
+        <div className='flex lg:flex-row flex-col w-full'>
+            <div className='text-white text-center lg:w-1/2 p-10 space-y-4 bg-[#D2153D]'>
                 <Link href='/'>
                     <h1 className='text-4xl font-semibold'>Dustro</h1>
                 </Link>
@@ -40,7 +40,7 @@ const Footer = () => {
                         <BsYoutube className='border rounded-full w-8 h-8 p-1 bg-white' onClick={handleFooter} size={20} />
                     </Link>
                 </div>
-                <p>Fusce eu magna quis velit efficitur rhoncus. Vivamus vehicula, neque a velit</p>
+                <p>Come lets us do business with you</p>
             </div>
             <div className='flex items-center justify-center bg-[#00215B] text-white w-full space-x-3 md:space-x-8 py-10'>
                 <div className=''>
