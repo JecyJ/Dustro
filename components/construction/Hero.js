@@ -9,7 +9,7 @@ const Hero = () => {
     console.log('Button clicked')
   }
   return (
-    <section className="relative w-full h-screen space-y-3 lg:space-y-20 mb-52 md:mb-56 lg:mb-20">
+    <section className="relative w-full h-screen space-y-3 lg:space-y-20 mb-52 md:mb-56 lg:mb-20 px-3">
       <div>
         <Image className="absolute z-[-2] bg-cover" src='/assets/images/office-building.png' alt='/' layout="fill" priority />      
         <div className="pt-10 md:pt-4 bg-cover max-w-[400px] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1200px] m-auto">    
@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 max-w-[400px] md:max-w-[1000px] mx-auto">
+      <div className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 max-w-[400px] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1200px] m-auto mx-auto">
         <div className="flex md:h-32">
           <h1 className="border bg-[#00215B] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">147 <span className="text-xs w-">Completed Projects</span></h1>
           <h1 className="border bg-[#D2153D] flex flex-col w-44 h-42 text-white text-5xl font-semibold p-7">25+ <span className="text-xs w-">Years of Experience</span></h1> 
