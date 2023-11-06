@@ -5,7 +5,7 @@ import {BsPlusSquare} from 'react-icons/bs'
 
 const Gallery = () => {
   return (
-    <section className='relative w-full h-auto my-20 md:mt-64'>
+    <section className='relative w-full h-auto my-20 md:mt-40'>
         <div className='grid grid-cols-3 grid-rows-3 gap-2 md:gap-4 max-w-[400px] md:max-w-[1000px] mx-auto'>
             <Image className="w-full h-auto" src='/assets/images/crane2.png' width={500} height={500} />
             <Image className="w-full h-auto" src='/assets/images/bulldozer.png' width={500} height={500} />
