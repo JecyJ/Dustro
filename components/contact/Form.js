@@ -3,7 +3,7 @@ import Button from "@components/reusable files/Button";
 
 const Form = () => {
   return (
-    <section className="relative w-full h-auto mt-20 md:mt-64">
+    <section className="relative w-full h-auto mt-20 md:mt-44">
         <form className="max-w-[400px] md:max-w-[1000px] mx-auto space-y-3">
            <div className="grid grid-cols-2 grid-row-5 gap-3">
                 <input className="shadow-2xl rounded-2xl h-8 p-5 border border-slate-200" type="fullname" placeholder="Your Full Name" name="fullname" />
