@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="pt-10 md:pt-4 bg-cover max-w-[400px] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1200px] m-auto">    
           <div className="space-y-3">
             <h1 className="text-[#00215B] text-4xl md:text-6xl font-semibold">Construction solution <br /> for everyone</h1>
-            <p className="text-[#00215B]">In id enim odio. Nunc aliquet diam tortor, at venenatis urna sagittis non. Suspendisse sodales nulla <br className="hidden md:block" /> sit amet sem condimentum, ac euismod nibh elementum. Praesent eu urna at sem sodales venenatis. <br className="hidden md:block" /> Mauris efficitur dapibus enim in posuere</p>
+            <p className="text-[#00215B]">To continually exceed our customers' expectation by providing timely, efficient and smart services in the oil & Gas sector using highly motivated personnel and strategic technicalities. To render quality support Services to our client, enabling them to concentrate on core business operations.</p>
             <Button onClick={handleClick}>Learn more</Button>
           </div>
         </div>
@@ -32,21 +32,21 @@ const Hero = () => {
               <Image src='/assets/images/hat.svg' alt='/' width={30} height={30} />
               <div>
                 <h2 className="font-semibold text-[#00215B]">General Contract</h2>
-                <p className="text-[#41444B]">Quisque condimentum erat ac orci blandit, in sollicitudin tellus vestibulum</p>
+                <p className="text-[#41444B]">Earth work, Grading, Subgrade, Subbase, Asphalt binder and wearing</p>
               </div>
             </li>
             <li className="flex space-x-2">
               <Image src='/assets/images/steel-rule.svg' alt='/' width={30} height={30} />
               <div>
                 <h2 className="font-semibold text-[#00215B]">Project Planning</h2>
-                <p className="text-[#41444B]">Nullam commodo tincidunt nisl, nec vehicula dui interdum nec</p>
+                <p className="text-[#41444B]">We plan with you till the end..For a healthy tank</p>
               </div>
             </li>
             <li className="flex space-x-2">
               <Image src='/assets/images/measuring-tool.svg' alt='/' width={30} height={30} />
               <div>
                 <h2 className="font-semibold text-[#00215B]">Refurbishment</h2>
-                <p className="text-[#41444B]">Sed vitae aliquet ipsum, ut ornare lectus. Proin sed sem risus. Sed nunc</p>
+                <p className="text-[#41444B]">We provide a lasting solution to your waste problem.</p>
               </div>
             </li>
           </ul>
