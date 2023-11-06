@@ -12,7 +12,7 @@ const Services = () => {
                 <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00215B]/70" />
                 <div className="relative top-0 w-full p-4 md:p-6">
                     <h1 className="text-xl md:text-3xl">Research & Analysis</h1>
-                    <p className="text-xs md:text-sm mt-5">Nullam tincidunt libero eu augue eleifend, vitae condimentum lacus </p>
+                    <p className="text-xs md:text-sm mt-5">we are passionate about what we do and act promptly to achieve our goals.</p>
                     <div className="w-full text-right">
                         <button className="p-1 md:p-2 bg-[#D2153D] mt-24 "><HiOutlineArrowNarrowRight /></button>
                     </div>                    
@@ -23,7 +23,7 @@ const Services = () => {
                 <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#D2153D]/70" />
                 <div className="relative top-0 w-full p-4 md:p-6">
                     <h1 className="text-xl md:text-3xl">Industrial Development</h1>
-                    <p className="text-xs md:text-sm mt-5">Fusce id hendrerit lectus. Morbi vitae tortor sed turpis feugiat lacus</p>
+                    <p className="text-xs md:text-sm mt-5">Commitment to quality and safety An unshakeable respect for budgets and projects timeline</p>
                     <div className="w-full text-right">
                         <button className="p-1 md:p-2 bg-[#00215B] mt-24 "><HiOutlineArrowNarrowRight /></button>
                     </div> 
@@ -34,7 +34,7 @@ const Services = () => {
                 <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00215B]/70" />
                 <div className="relative top-0 w-full p-4 md:p-6">
                     <h1 className="text-xl md:text-3xl">Production Launch</h1>
-                    <p className="text-xs md:text-sm mt-5">Nullam tincidunt libero eu augue eleifend, vitae condimentum lacus</p>
+                    <p className="text-xs md:text-sm mt-5">Philosophy of continuous improvement.</p>
                     <div className="w-full text-right">
                         <button className="p-1 md:p-2 bg-[#D2153D] mt-24 "><HiOutlineArrowNarrowRight /></button>
                     </div>   
