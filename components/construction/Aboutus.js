@@ -10,8 +10,8 @@ const Aboutus = () => {
             <div className="space-y-5">
                 <h2 className='text-[#D2153D]'>ABOUT US</h2>              
                 <h1 className='text-3xl md:text-5xl text-[#16213E] font-semibold'>With our knowledge we guarantee success</h1>
-                <h3 className='text-[#00215B] font-semibold'> Fusce id hendrerit lectus. Morbi vitae tortor sed turpis feugiat congue</h3>
-                <p className='text-[#41444B] pb-6'>Cras tincidunt tellus at mi tristique rhoncus. Etiam dapibus rutrum leo consectetur accumsan. Vivamus viverra ante turpis, dignissim condimentum elit egestas sit amet. Phasellus faucibus pellentesque</p>
+                <h3 className='text-[#00215B] font-semibold'>We aim to find new and better ways of doing things.</h3>
+                <p className='text-[#41444B] pb-6'>To innovate, grow and adapt to the dynamics of a changing industry and global economy leveraging on advancement in logistics, technology and grounded in professionalism.</p>
                 <Link href='/aboutus'>
                     <Button>Learn More</Button>
                 </Link>               
